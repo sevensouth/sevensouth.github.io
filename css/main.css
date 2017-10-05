@@ -1,0 +1,336 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: "Helvetica neue", Geneva, Arial, sans-serif;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+  
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  /*max-width: 100%;*/
+    max-width:  100%;
+    max-height: 100%;
+}
+
+/*h1 {
+   background-color: #669900;
+}
+*/
+
+h2 {text-align: left;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  text-align: left;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+ }
+
+.main-header {
+   background-color: #995c00  /*The  in the top band*/
+      
+}
+
+#logo {
+  text-align: left;
+  margin: 0;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  background: /*#e68a00;*/ 
+ }
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+}
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px #ffcc00; /*#669900;*/
+	
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;	
+}
+
+
+/**********************************
+PAGE: SERVICES
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #fff;
+  color: #000;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+/*--Johnson-Box--
+#johnson-box{
+display: block;
+background: #f3edfc;
+border: 4px dashed #cc99ff;
+width: 600px;
+height:60px;
+text-align: center;
+}
+*/
+
+.my_class_name {
+	padding: 20px;
+	background: #ffff99;
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid #e5e589;
+	border-radius: 9px;
+	
+}
+
+
+
+/*.profile-photo2 {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+*/
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info-Mai{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.0em;
+}
+
+.contact-info-Mai a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info-Mai li.phone a {
+  background-image: url('../img/tel.png');
+}
+
+.contact-info-Mai li.mail a {
+  background-image: url('../img/email-icon.png');
+}
+
+.contact-info-Mai li.address a {
+  background-image: url('../img/home.png');
+}
+
+.contact-info-Smart_Owl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.0em;
+}
+
+.contact-info-Smart_Owl a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+/*.contact-info-Mai li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+*/
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* #669900 The green of the logo */
+
+/* #e68a00;	 The light brown of the logo */
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Header */
+header {
+  background: #fff;         /*#ff9933;*/
+  border-color: #000;
+}
+
+/* nav background on mobile */
+nav {
+  background: #ffcc00;  
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #993300/*The green of the logo. #e68a00;*/
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #332200; /*#fff;*/
+}
+
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #fff;   /*#332200*/  
+}
+
+
+/* hover nav link */
+/*nav a:hover {
+  color: #669900   /*#332200*/
+}
+*/
+
+
+/* selected nav link */
+/*nav a.selected, nav a:hover {
+  color: #fff;  /*#e68a00*/   /*#32673f;*/
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
